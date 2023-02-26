@@ -10,5 +10,9 @@
   {
     "repository"  : "vendor_google_sargo",
     "target_path" : "vendor/google/sargo"
+  },
+  { 
+    "repository"  : "packages_apps_PixelParts",
+    "target_path" : "packages/apps/PixelParts"
   }
 ]

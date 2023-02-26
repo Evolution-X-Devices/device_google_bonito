@@ -1,2 +1,14 @@
 # Smart Charging
 type vendor_sysfs_battery_supply, fs_type, sysfs_type;
+
+# Sound control
+type sysfs_sound_control, fs_type, sysfs_type;
+
+# Sync
+type sysfs_sync, fs_type, sysfs_type;
+
+# USB 2.0 force fast charge
+type sysfs_fastcharge, fs_type, sysfs_type;
+
+# Workqueue
+type sysfs_workqueue, fs_type, sysfs_type;

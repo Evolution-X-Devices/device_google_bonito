@@ -1,2 +1,9 @@
 # Smart Charging
 /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-00/c440000.qcom,spmi:qcom,pm660@0:qcom,qpnp-smb2/power_supply/battery/input_suspend    u:object_r:vendor_sysfs_battery_supply:s0
+
+# PixelParts
+/sys/devices/virtual/graphics/fb0/hbm               u:object_r:sysfs_graphics:s0
+/sys/kernel/fast_charge/force_fast_charge           u:object_r:sysfs_fastcharge:s0
+/sys/module/msm_drm/parameters(/.*)?                u:object_r:sysfs_dm:s0
+/sys/module/sync/parameters/fsync_enabled           u:object_r:sysfs_sync:s0
+/sys/module/workqueue/parameters/power_efficient    u:object_r:sysfs_workqueue:s0

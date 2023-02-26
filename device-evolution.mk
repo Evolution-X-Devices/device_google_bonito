@@ -23,6 +23,10 @@ PRODUCT_COPY_FILES += \
 # Google Assistant
 PRODUCT_PRODUCT_PROPERTIES += ro.opa.eligible_device=true
 
+# PixelParts
+PRODUCT_PACKAGES += \
+    PixelParts
+
 # RCS
 PRODUCT_PACKAGES += \
     PresencePolling \
