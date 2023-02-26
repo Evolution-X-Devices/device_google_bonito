@@ -1,0 +1,2 @@
+# Smart Charging
+type vendor_sysfs_battery_supply, fs_type, sysfs_type;

@@ -25,4 +25,4 @@ else
   -include vendor/google_devices/bonito/proprietary/BoardConfigVendor.mk
 endif
 
-include device/google/bonito/sargo/BoardConfigLineage.mk
+include device/google/bonito/sargo/BoardConfigEvolution.mk

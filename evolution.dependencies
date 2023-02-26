@@ -1,0 +1,14 @@
+[
+  {
+    "repository"  : "kernel_google_msm-4.9",
+    "target_path" : "kernel/google/msm-4.9"
+  },
+  {
+    "repository"  : "vendor_google_bonito",
+    "target_path" : "vendor/google/bonito"
+  },
+  {
+    "repository"  : "vendor_google_sargo",
+    "target_path" : "vendor/google/sargo"
+  }
+]
