@@ -29,8 +29,10 @@ endif
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 
 # Reserve space for gapps install
-BOARD_PRODUCTIMAGE_MINIMAL_PARTITION_RESERVED_SIZE := true
 -include vendor/lineage/config/BoardConfigReservedSize.mk
+ifneq ($(WITH_GMS),true)
+BOARD_PRODUCTIMAGE_PARTITION_RESERVED_SIZE := 1083179008
+endif
 
 # SELinux
 BOARD_SEPOLICY_DIRS += device/google/bonito/sepolicy-lineage/dynamic
