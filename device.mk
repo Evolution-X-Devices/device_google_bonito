@@ -372,9 +372,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Memtrack HAL
 PRODUCT_PACKAGES += \
-    memtrack.$(TARGET_CHIPSET) \
-    android.hardware.memtrack@1.0-impl \
-    android.hardware.memtrack@1.0-service
+    vendor.qti.hardware.memtrack-service
 
 # Bluetooth SoC
 PRODUCT_PROPERTY_OVERRIDES += \
