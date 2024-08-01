@@ -18,7 +18,9 @@ PRODUCT_HARDWARE := sargo
 
 include device/google/bonito/device-common.mk
 
-DEVICE_PACKAGE_OVERLAYS += device/google/bonito/sargo/overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    device/google/bonito/sargo/overlay \
+    device/google/bonito/sargo/overlay-evolution
 
 # SKU specific RROs
 PRODUCT_PACKAGES += \

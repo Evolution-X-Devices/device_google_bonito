@@ -18,7 +18,9 @@ PRODUCT_HARDWARE := bonito
 
 include device/google/bonito/device-common.mk
 
-DEVICE_PACKAGE_OVERLAYS += device/google/bonito/bonito/overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    device/google/bonito/bonito/overlay \
+    device/google/bonito/bonito/overlay-evolution
 
 # SKU specific RROs
 PRODUCT_PACKAGES += \
