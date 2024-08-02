@@ -118,10 +118,6 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 #PRODUCT_PACKAGES += \
 #    RemovePackages
 
-# Add Velvet
-PRODUCT_PACKAGES += \
-    Velvet
-
 # Set thermal warm reset
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.thermal_warmreset = true \
