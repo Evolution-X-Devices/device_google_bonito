@@ -114,9 +114,13 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.vsync_event_phase_offset_ns=2000000 \
     ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000
 
-# Remove unwanted packages
+# Remove unwanted packages (not useful for now, maybe later)
+#PRODUCT_PACKAGES += \
+#    RemovePackages
+
+# Add Velvet
 PRODUCT_PACKAGES += \
-    RemovePackages
+    Velvet
 
 # Set thermal warm reset
 PRODUCT_PRODUCT_PROPERTIES += \
