@@ -16,7 +16,7 @@
 
 PRODUCT_HARDWARE := bonito
 
-include device/google/bonito/device-common.mks
+include device/google/bonito/device-common.mk
 
 DEVICE_PACKAGE_OVERLAYS += \
     device/google/bonito/bonito/overlay \
