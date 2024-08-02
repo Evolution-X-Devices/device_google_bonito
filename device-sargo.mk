@@ -18,6 +18,9 @@ PRODUCT_HARDWARE := sargo
 
 include device/google/bonito/device-common.mk
 
+# New try using Pico Gapps and Velvet
+TARGET_USES_PICO_GAPPS := true
+
 DEVICE_PACKAGE_OVERLAYS += \
     device/google/bonito/sargo/overlay \
     device/google/bonito/sargo/overlay-evolution

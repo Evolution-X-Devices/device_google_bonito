@@ -18,6 +18,9 @@ PRODUCT_HARDWARE := bonito
 
 include device/google/bonito/device-common.mk
 
+# New try using Pico Gapps and Velvet
+TARGET_USES_PICO_GAPPS := true
+
 DEVICE_PACKAGE_OVERLAYS += \
     device/google/bonito/bonito/overlay \
     device/google/bonito/bonito/overlay-evolution
