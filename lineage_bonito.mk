@@ -12,7 +12,7 @@ $(call inherit-product, device/google/bonito/aosp_bonito.mk)
 
 include device/google/bonito/device-lineage.mk
 
-# New try using Pico Gapps and Velvet
+# New try using Pico Gapps
 TARGET_USES_PICO_GAPPS := true
 
 # Device identifier. This must come after all inclusions
