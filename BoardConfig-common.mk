@@ -73,6 +73,9 @@ TARGET_NO_KERNEL := false
 BOARD_USES_RECOVERY_AS_BOOT := true
 BOARD_USES_METADATA_PARTITION := true
 
+# System Image
+BOARD_SYSTEMIMAGE_FILE_SYSTEM_TYPE := erofs
+
 AB_OTA_UPDATER := true
 
 AB_OTA_PARTITIONS += \
@@ -83,8 +86,8 @@ AB_OTA_PARTITIONS += \
     product \
     system_ext
 
-BOARD_PRODUCTIMAGE_FILE_SYSTEM_TYPE := ext4
-BOARD_SYSTEM_EXTIMAGE_FILE_SYSTEM_TYPE := ext4
+BOARD_PRODUCTIMAGE_FILE_SYSTEM_TYPE := erofs
+BOARD_SYSTEM_EXTIMAGE_FILE_SYSTEM_TYPE := erofs
 
 # Partitions (listed in the file) to be wiped under recovery.
 TARGET_RECOVERY_WIPE := device/google/bonito/recovery.wipe
@@ -110,6 +113,9 @@ BOARD_GOOGLE_DYNAMIC_PARTITIONS_PARTITION_LIST := \
     vendor \
     product \
     system_ext
+
+# Use erofs for vendor image.
+BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := erofs
 
 BOARD_SUPER_PARTITION_SIZE := 4072669184
 BOARD_SUPER_PARTITION_METADATA_DEVICE := system
