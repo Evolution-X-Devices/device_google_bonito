@@ -26,7 +26,7 @@ AB_OTA_PARTITIONS += \
 ifneq ($(PRODUCT_USE_DYNAMIC_PARTITIONS), true)
     BOARD_VENDORIMAGE_PARTITION_SIZE := 805306368
 endif
-BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
+BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := erofs
 
 # Reserve space for gapps install
 -include vendor/lineage/config/BoardConfigReservedSize.mk
