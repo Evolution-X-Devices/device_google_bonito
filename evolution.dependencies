@@ -20,6 +20,12 @@
     "branch": "lineage-21"
   },
   {
+    "repository": "AnierinBliss/vendor_google_GoogleCamera",
+    "target_path": "vendor/google/GoogleCamera",
+    "remote": "udc",
+    "branch": "lineage-21"
+  },
+  {
     "repository": "LineageOS/android_packages_apps_ElmyraService",
     "target_path": "packages/apps/ElmyraService",
     "remote": "github-non-los",
