@@ -12,9 +12,6 @@ $(call inherit-product, device/google/bonito/aosp_bonito.mk)
 
 include device/google/bonito/device-lineage.mk
 
-# New try using Pico Gapps
-TARGET_USES_PICO_GAPPS := true
-
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 3a XL
