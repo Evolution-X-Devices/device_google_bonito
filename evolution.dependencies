@@ -22,8 +22,8 @@
   {
     "repository": "AnierinBliss/vendor_google_GoogleCamera",
     "target_path": "vendor/google/GoogleCamera",
-    "remote": "udc",
-    "branch": "lineage-21"
+    "remote": "github-non-los",
+    "branch": "udc"
   },
   {
     "repository": "LineageOS/android_packages_apps_ElmyraService",
