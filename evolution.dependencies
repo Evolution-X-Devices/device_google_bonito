@@ -20,7 +20,7 @@
     "branch": "lineage-21"
   },
   {
-    "repository": "AnierinBliss/vendor_google_GoogleCamera",
+    "repository": "Oneloutre/vendor_google_GoogleCamerab4s4",
     "target_path": "vendor/google/GoogleCamera",
     "remote": "github-non-los",
     "branch": "udc"
