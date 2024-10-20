@@ -22,9 +22,8 @@ TARGET_SCREEN_HEIGHT := 2220
 TARGET_SCREEN_WIDTH := 1080
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=sargo \
-    PRIVATE_BUILD_DESC="sargo-user 12 SP2A.220505.008 8782922 release-keys"
-
-BUILD_FINGERPRINT := google/sargo/sargo:12/SP2A.220505.008/8782922:user/release-keys
+    BuildDesc="sargo-user 12 SP2A.220505.008 8782922 release-keys" \
+    BuildFingerprint=google/sargo/sargo:12/SP2A.220505.008/8782922:user/release-keys \
+    DeviceProduct=sargo
 
 $(call inherit-product, vendor/google/sargo/sargo-vendor.mk)
