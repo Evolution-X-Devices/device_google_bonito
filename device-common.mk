@@ -25,7 +25,7 @@ include device/google/bonito/device-audio-mfg.mk
 include device/google/bonito/device.mk
 
 #Ship GCam
-$(call inherit-product, vendor/google/GoogleCamera/config.mk)
+$(call inherit-product, vendor/google/GoogleCamera/b4s4/config.mk)
 
 # Device now uses mini_gapps
 TARGET_USES_MINI_GAPPS := true
