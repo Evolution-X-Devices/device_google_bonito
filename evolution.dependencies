@@ -20,10 +20,10 @@
     "branch": "lineage-21"
   },
   {
-    "repository": "Oneloutre/vendor_google_GoogleCamerab4s4",
-    "target_path": "vendor/google/GoogleCamera",
+    "repository": "Oneloutre/vendor_google_GoogleCamera",
+    "target_path": "vendor/google/GoogleCamera/b4s4",
     "remote": "github-non-los",
-    "branch": "udc"
+    "branch": "b4s4"
   },
   {
     "repository": "LineageOS/android_packages_apps_ElmyraService",
