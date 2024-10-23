@@ -27,6 +27,9 @@ include device/google/bonito/device.mk
 #Ship GCam
 $(call inherit-product, vendor/google/GoogleCamera/config.mk)
 
+# Device now uses mini_gapps
+TARGET_USES_MINI_GAPPS := true
+
 # Bug 77867216
 PRODUCT_PROPERTY_OVERRIDES += audio.adm.buffering.ms=3
 PRODUCT_PROPERTY_OVERRIDES += vendor.audio.adm.buffering.ms=3
