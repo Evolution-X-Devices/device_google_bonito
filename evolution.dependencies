@@ -4,8 +4,8 @@
     "target_path": "device/google/gs-common"
   },
   {
-    "repository": "kernel_google_msm-4.9",
-    "target_path": "kernel/google/msm-4.9"
+    "repository": "kernel_google_b4s4",
+    "target_path": "kernel/google/b4s4"
   },
   {
     "repository": "TheMuppets/proprietary_vendor_google_bonito",
