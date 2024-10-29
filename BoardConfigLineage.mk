@@ -11,7 +11,7 @@ TARGET_KERNEL_CLANG_VERSION := r416183b
 TARGET_KERNEL_CLANG_PATH := $(abspath .)/prebuilts/clang/kernel/$(HOST_PREBUILT_TAG)/clang-$(TARGET_KERNEL_CLANG_VERSION)
 TARGET_KERNEL_CONFIG := bonito_defconfig
 TARGET_KERNEL_LLVM_BINUTILS := false
-TARGET_KERNEL_SOURCE := kernel/google/msm-4.9
+TARGET_KERNEL_SOURCE := kernel/google/b4s4
 TARGET_NEEDS_DTBOIMAGE := true
 
 # Manifests
