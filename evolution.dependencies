@@ -22,8 +22,8 @@
     "branch": "lineage-22.1"
   },
   {
-    "repository": "Oneloutre/vendor_google_GoogleCamera",
-    "target_path": "vendor/google/GoogleCamera/b4s4",
+    "repository": "Oneloutre/vendor_Camera",
+    "target_path": "vendor/Camera/b4s4",
     "remote": "github-non-los",
     "branch": "b4s4"
   },
