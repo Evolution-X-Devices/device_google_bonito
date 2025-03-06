@@ -10,16 +10,12 @@
     "target_path": "kernel/google/b4s4"
   },
   {
-    "repository": "TheMuppets/proprietary_vendor_google_bonito",
-    "target_path": "vendor/google/bonito",
-    "remote": "github-non-los",
-    "branch": "lineage-22.1"
+    "repository": "vendor_google_bonito",
+    "target_path": "vendor/google/bonito"
   },
   {
-    "repository": "TheMuppets/proprietary_vendor_google_sargo",
-    "target_path": "vendor/google/sargo",
-    "remote": "github-non-los",
-    "branch": "lineage-22.1"
+    "repository": "vendor_google_sargo",
+    "target_path": "vendor/google/sargo"
   },
   {
     "repository": "Oneloutre/vendor_Camera",
