@@ -22,6 +22,9 @@ DEVICE_PACKAGE_OVERLAYS += \
     device/google/bonito/bonito/overlay \
     device/google/bonito/bonito/overlay-evolution
 
+# CHRE
+$(call soong_config_set,chre,chre_daemon_dsp_library,//vendor/google/bonito:libadsprpc)
+
 # SKU specific RROs
 PRODUCT_PACKAGES += \
     SettingsOverlayG020A \
