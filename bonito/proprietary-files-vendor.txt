@@ -353,14 +353,6 @@ vendor/firmware/wlanmdsp.mbn
 vendor/framework/com.google.android.camera.experimental2018.jar
 vendor/lib/android.hardware.sensors@2.0-impl.so
 vendor/lib/btaudio_offload_if.so
-vendor/lib/camera/com.qti.sensormodule.metric_imx363.bin
-vendor/lib/camera/com.qti.sensormodule.primax_imx355.bin
-vendor/lib/camera/com.qti.sensormodule.primax_imx355_s.bin
-vendor/lib/camera/com.qti.tuned.default.bin
-vendor/lib/camera/fdconfigpreview.bin
-vendor/lib/camera/fdconfigpreviewlite.bin
-vendor/lib/camera/fdconfigvideo.bin
-vendor/lib/camera/fdconfigvideolite.bin
 vendor/lib/egl/eglSubDriverAndroid.so
 vendor/lib/egl/libEGL_adreno.so;SYMLINK=vendor/lib/libEGL_adreno.so
 vendor/lib/egl/libGLESv1_CM_adreno.so
