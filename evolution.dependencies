@@ -1,9 +1,9 @@
 [
   {
-    "repository": "LineageOS/device_google_gs-common",
+    "repository": "LineageOS/android_device_google_gs-common",
     "target_path": "device/google/gs-common",
     "remote": "github-non-los",
-    "branch": "lineage-22.1"
+    "branch": "lineage-22.2"
   },
   {
     "repository": "kernel_google_b4s4",
@@ -27,6 +27,6 @@
     "repository": "LineageOS/android_packages_apps_ElmyraService",
     "target_path": "packages/apps/ElmyraService",
     "remote": "github-non-los",
-    "branch": "lineage-22.1"
+    "branch": "lineage-22.2"
   }
 ]
