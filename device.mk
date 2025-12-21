@@ -25,6 +25,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/qcom/audio \
     hardware/qcom/sdm845/display \
     hardware/qcom/sdm845/gps \
+    hardware/qcom/wlan \
     hardware/qcom/wlan/legacy \
     hardware/qcom-caf/bootctrl \
     vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um
